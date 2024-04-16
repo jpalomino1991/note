@@ -66,7 +66,7 @@
 //imports
 
   import { ref, computed, reactive } from 'vue'
-  import { useStoreAuth } from '@/store/storeAuth';
+  import { useStoreAuth } from '@/store/storeAuth'
 
 //store
 

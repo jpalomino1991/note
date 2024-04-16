@@ -35,6 +35,8 @@ export const useStoreNotes = defineStore('storeNotes', {
         })
         this.notes = notes
         this.notesLoaded = false
+      }, error => {
+        console.error('error.message', error.message)
       })
     },
     async addNote(newNote) {
